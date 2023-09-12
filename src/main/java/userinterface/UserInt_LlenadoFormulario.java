@@ -19,6 +19,23 @@ import org.openqa.selenium.By;
         public static final Target INPUT_ZIP = Target.the("Codigo postal del usuario").located(By.id("zip"));
         public static final Target PRESS_NEXT_DEVICES = Target.the("Clic en boton ir a Dispositivos").located(By.cssSelector("a.btn.btn-blue.pull-right"));
 
+
+
+        public static final Target IMPUT_WIN = Target.the("sistema operativo").located(By.xpath("//*[@id=\"web-device\"]/div[1]/div[2]/div/div[1]/span/span[2]"));
+        public static final Target IMPUT_select = Target.the("sistema operativo").located(By.xpath("//*[@id=\"web-device\"]/div[1]/div[2]/div/input[1]"));
+
+
+        public static final Target IMPUT_VER = Target.the("sistema operativo").located(By.xpath("//*[@id=\"web-device\"]/div[2]/div[2]/div/div[1]/span"));
+        public static final Target IMPUT_select_VER= Target.the("sistema operativo").located(By.xpath("//*[@id=\"web-device\"]/div[2]/div[2]/div/input[1]"));
+
+
+
+        public static final Target IMPUT_LENG = Target.the("sistema operativo").located(By.xpath("//*[@id=\"web-device\"]/div[3]/div[2]/div/div[1]/span"));
+        public static final Target IMPUT_select_LENG= Target.the("sistema operativo").located(By.xpath("//*[@id=\"web-device\"]/div[3]/div[2]/div/input[1]"));
+
+
+
+
         public static final Target PRESS_LASTSTEP_BUTTON = Target.the("Clic en boton ir a ultimos pasos").located(By.cssSelector("a.btn.btn-blue.pull-right"));
         public static final Target PASSWORD = Target.the("Contraseña").located(By.id("password"));
         public static final Target CONFIRMPASSWORD = Target.the("Confirmar contraseña").located(By.id("confirmPassword"));

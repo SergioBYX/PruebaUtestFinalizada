@@ -46,39 +46,12 @@ public class ChoucairAcademyStepDefinitions {
                 academychoucairData.get(0).getCiudad(),
                 academychoucairData.get(0).getPostal(),
                 academychoucairData.get(0).getContrasena(),
-                academychoucairData.get(0).getContrasena()
+                academychoucairData.get(0).getContrasena(),
+                academychoucairData.get(0).getSistemaoperativo(),
+                academychoucairData.get(0).getSistemaversion(),
+                academychoucairData.get(0).getSistemalenguaje()
+
                 ));
     }
 
 }
-
-
-
-/*
-
-public class ChoucairAcademyStepDefinitions {
-
-    @Before
-    public void setStage(){
-        OnStage.setTheStage(new OnlineCast());
-    }
-
-    @Given("^correctly the information in the alphanumeric fields$")
-    public void correctlyTheInformationInTheAlphanumericFields() {
-        OnStage.theActorCalled("Sergio").wasAbleTo(Task_OpenChrome.onThePage());
-
-    }
-
-    @When("^Click on the Sign in button$")
-    public void clickOnTheSignInButton() {
-    OnStage.theActorCalled("Sergio").wasAbleTo(Task_Login.onThePage());
-    }
-
-    @Then("^you can fill the login fields for the start of session$")
-    public void youCanFillTheLoginFieldsForTheStartOfSession() {
-        OnStage.theActorCalled("Sergio").wasAbleTo(Task_LlenadoFormulario.onThePage());
-    }
-
-}
-
- */

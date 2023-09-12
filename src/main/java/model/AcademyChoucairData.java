@@ -13,6 +13,25 @@ public class AcademyChoucairData {
     private String postal;
     private String contrasena;
     private String contrasenaRe;
+    private String sistemaoperativo;
+    private String sistemaversion;
+    private String sistemalenguaje;
+
+    public String getSistemalenguaje() {
+        return sistemalenguaje;
+    }
+
+    public void setSistemalenguaje(String sistemalenguaje) {
+        this.sistemalenguaje = sistemalenguaje;
+    }
+
+    public String getSistemaversion() {
+        return sistemaversion;
+    }
+
+    public void setSistemaversion(String sistemaversion) {
+        this.sistemaversion = sistemaversion;
+    }
 
     public String getSrtUser() {
         return srtUser;
@@ -101,4 +120,15 @@ public class AcademyChoucairData {
     public void setContrasenaRe(String contrasenaRe) {
         this.contrasenaRe = contrasenaRe;
     }
+
+    public String getSistemaoperativo() {
+        return sistemaoperativo;
+    }
+
+    public void setSistemaoperativo(String sistemaoperativo) {
+        this.sistemaoperativo = sistemaoperativo;
+    }
+
+
+
 }
